@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+* {  
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0 auto; 
+	color: black; /*Цвет текста на странице*/
+} 
+
+.wrapper-text {
+    display: grid;
+    justify-items: center;
+}
+
+/* при наведении на контейнер меняется фон и цвет текста */
+.wrapper-text:hover {
+    background-color: rgb(32, 32, 32);
+}
+
+.wrapper-text:hover p {
+    color: lightblue;
+}
