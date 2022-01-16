@@ -1,12 +1,8 @@
 html {
     font-size: 16px;
     font-weight: 300;
-}
-
-* {  
     margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
+    padding: 5px;
 }
 
 body { 
@@ -17,6 +13,10 @@ body {
 .wrapper-text {
     display: grid;
     justify-items: center;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 /* при наведении на контейнер меняется фон и цвет текста */
